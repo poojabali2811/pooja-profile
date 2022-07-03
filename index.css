@@ -1,0 +1,72 @@
+.profileImg {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+h1 {
+  text-align: center;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.headerDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.designation {
+  font-size: 25px;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutMe
+ {
+  border: 2px solid purple;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 50px 20px;
+  height: 200px;
+}
+
+.skillContainer{
+  border: 2px solid purple;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 50px 20px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.location {
+  height: 100px;
+}
+
+footer {
+  text-align: center;
+}
+
+.aboutMeContent {
+  padding: 20px;
+  font-size: large;
+}
